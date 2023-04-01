@@ -1,11 +1,11 @@
-title: "Litmus Jekyll Theme"
-email: "tortoizthemes@gmail.com"
+title: ".BLUE - to the technology"
+email: "info@dotblue.uk"
 description: >- # this means to ignore newlines until "baseurl:"
-  Litmus is a modern presentation Jekyll Portfolio Template.
+  .BLUE is a connection to the technology, with reliability, trust, and professionalism.
 baseurl: "" # the subpath of your site, e.g. /blog
-author: "tortoizthemes"
-keywords: "HTML5, Template, Design, portfolio, Litmus, Single portfolio"
-url: "https://litmus-jk.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+author: "DotBlue"
+keywords: "Trading platform, App, Website, Design, System development, Fintech"
+url: "https://dotblue.uk" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Google Analytics
 google_analytics: "UA—XXXXXXXX-X"
