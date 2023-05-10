@@ -6,7 +6,7 @@
                 {% for nav in nav_info%}
                 {% if nav.submenu %}
                 <li>
-                    <a href="{{nav.url}}">{{nav.text}} <i class="fa fa-angle-down"></i></a>
+                    <a href="{{nav.url}}" target="{{nav.target}}">{{nav.text}} <i class="fa fa-angle-down"></i></a>
                     <ul class="sub-menu">
                         {% assign submenu_data = nav.submenu %}
                         {% for submenu_list in submenu_data %}
@@ -16,7 +16,7 @@
                 </li>
                 {% else %}
                 <li>
-                    <a class="{% if page.url contains nav.url %} active {% endif %}" href="{{nav.url}}">{{ nav.text }}</a>
+                    <a class="{% if page.url contains nav.url %} active {% endif %}" href="{{nav.url}}" target="{{nav.target}}">{{ nav.text }}</a>
                 </li>
                 {% endif %}
                 {% endfor %}

@@ -5,14 +5,20 @@
 #    url: "/index-2"
 #- text: "Blog"
 #  url: "/blog/"
+
 - text: "About"
   url: "/about"
 #- text: "Portfolios"
 #  url: "/portfolios"
 #- text: "Services"
 #  url: "/services"
+
 - text: "Contact"
   url: "/contact"
+- text: "Marketing Service"
+  url: "https://www.digi-way.co.uk"
+  target: "_blank"
+
 #- text: "Pages"
 #  url: "/#"
 #  submenu:
